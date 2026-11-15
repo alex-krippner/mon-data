@@ -13,7 +13,7 @@ The full text is in [`LICENSE`](LICENSE).
 
 ### JMdict
 
-The Japanese–English dictionary packs are derived from the
+The Japanese–English and Japanese–German dictionary packs are derived from the
 [JMdict](https://www.edrdg.org/jmdict/j_jmdict.html) dictionary file.
 
 - JMdict is the property of the [Electronic Dictionary Research and Development Group](https://www.edrdg.org/)
@@ -25,7 +25,7 @@ The Japanese–English dictionary packs are derived from the
 **Changes made:** the jmdict-simplified JSON was converted into Mon's SQLite pack format and compressed
 with gzip. The entries are not otherwise edited.
 
-Each pack's `dictDate` in `catalog.json` and in its file name (`jmdict-eng-<dictDate>.db.gz`) is the date
+Each pack's `dictDate` in `catalog.json` and in its file name (`jmdict-<lang>-<dictDate>.db.gz`) is the date
 of the JMdict data it was built from. The data is rebuilt and re-released regularly to keep it current.
 
 ### Other files
